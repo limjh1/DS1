@@ -1,0 +1,63 @@
+# ========== Unreal Engine 5 기본 ==========
+# Binaries / Build 산출물
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.suo
+*.opensdf
+*.sdf
+*.sln.docstates
+
+# 플랫폼별
+*.iOS/
+*.Android/
+*.XcodeProj/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+
+# 자동 생성
+*.pdb
+*.exe
+*.dll
+*.app
+*.dylib
+*.icns
+*.ipa
+*.apk
+*.aar
+
+# 로그/캐시
+*.log
+*.tlog
+*.obj
+*.pyc
+*.cache
+*.vspscc
+*.vscode/
+
+# Unreal Engine 사용자 세팅 (에디터 개인 설정)
+*.user
+*.userprefs
+*.opensdf
+*.opendb
+
+# ========== Visual Studio / Rider ==========
+.vs/
+.idea/
+*.VC.db
+*.VC.VC.opendb
+
+# ========== 맥 / 윈도우 임시 ==========
+.DS_Store
+Thumbs.db
+
+# ========== 프로젝트 유지 대상 ==========
+# 아래 폴더/파일은 반드시 Git에 포함
+!Config/
+!Source/
+!.uproject
+# Content 전체 제외
+Content/
